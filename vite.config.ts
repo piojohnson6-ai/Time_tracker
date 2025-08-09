@@ -5,7 +5,8 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/time_tracker/',
+  base: '/Time_tracker/',
+
    // <---- move this here, at top-level config
   plugins: [react(), tailwindcss()],
   resolve: {
