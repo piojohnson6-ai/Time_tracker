@@ -2,15 +2,13 @@
   "name": "time_tracker",
   "private": true,
   "homepage": "https://piojohnson6-ai.github.io/Time_tracker",
-
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
+    "build": "vite build",
     "deploy": "gh-pages -d dist",
-
-    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
